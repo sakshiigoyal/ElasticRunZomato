@@ -23,7 +23,7 @@ function fetchCategories() {
 
 function fetchRestaurants(id, typeId, categoryId) {
   return request({
-    url: `/search?entity_id=${id}&establishment_type=${typeId}&category=${categoryId}}`,
+    url: `/search?entity_id=${id}&entity_type=city&establishment_type=${typeId}&category=${categoryId}}`,
     method: 'GET',
   });
 }

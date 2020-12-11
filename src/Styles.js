@@ -1,4 +1,4 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   mainContainer: {
@@ -6,8 +6,8 @@ export const styles = StyleSheet.create({
     marginBottom: 30,
     marginHorizontal: 8,
   },
-  rowStyle: {flexDirection: 'row'},
-  flexStyle: {flex: 1},
+  rowStyle: { flexDirection: 'row' },
+  flexStyle: { flex: 1 },
   locationStyle: {
     borderColor: 'black',
     borderWidth: 2,
@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
     marginHorizontal: 4,
     textAlign: 'center',
   },
-  bottomRow: {flexDirection: 'row', marginTop: 8},
+  bottomRow: { flexDirection: 'row', marginTop: 8 },
   buttonStyle: {
     position: 'absolute',
     bottom: 60,
@@ -36,5 +36,14 @@ export const styles = StyleSheet.create({
     borderColor: 'black',
     justifyContent: 'center',
   },
-  saveText:{ color: 'white', textAlign: 'center', fontSize: 18 }
+  saveText: {
+    color: 'white',
+    textAlign: 'center',
+    fontSize: 18,
+  },
+  selectedItems: {
+    height: 30,
+    marginVertical: 4,
+    backgroundColor: 'grey',
+  },
 });

@@ -19,7 +19,7 @@ class SavedRestaurants extends React.Component {
         data={this.state.selectedRestaurant}
         renderItem={({ item }) => (
           <View style={{marginVertical:12}}>
-            <Text>{`Name - ${item.restaurant.location.address}`}</Text>
+            <Text>{`Name - ${item.restaurant.name}`}</Text>
             <Text>{`Address - ${item.restaurant.location.address}`}</Text>
             <Text>{`Average cost - ${item.restaurant.average_cost_for_two}`}</Text>
             <Text>{`Timings - ${item.restaurant.timings}`}</Text>

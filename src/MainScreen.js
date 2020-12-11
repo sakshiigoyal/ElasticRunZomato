@@ -13,7 +13,6 @@ import {
 
 import { AppConstants } from '../utils/Constant';
 import { styles } from './Styles';
-import { loaderView } from './Loader';
 import Services from '../utils/Services';
 
 class MainScreen extends React.Component {
@@ -25,6 +24,9 @@ class MainScreen extends React.Component {
       selectedCategories: '',
       selectedRestaurant: {},
 
+      selectedLocationName: '',
+      selectedEstablishmentName: '',
+      selectedCategoriesName: '',
       location: '',
       locationList: [],
       categoriesRestList: [],
@@ -106,10 +108,12 @@ class MainScreen extends React.Component {
                 data={this.state.locationList}
                 renderItem={({ item }) => (
                   <TouchableOpacity
+                    style={styles.selectedItems}
                     onPress={() => {
                       this.setState((prev) => ({
                         selectedLocation: item.id,
                         showLocation: !prev.showLocation,
+                        location: item.name,
                       }));
                     }}>
                     <Text>{item.name}</Text>
@@ -129,7 +133,8 @@ class MainScreen extends React.Component {
               }}>
               <Text
                 style={styles.textStyle}>
-                {AppConstants.getRestaurentCategories}
+                {this.state.selectedEstablishmentName
+                  ? this.state.selectedEstablishmentName : AppConstants.getRestaurentCategories}
               </Text>
             </TouchableOpacity>
             {this.state.showRestCategories && (
@@ -137,10 +142,12 @@ class MainScreen extends React.Component {
                 data={this.state.categoriesRestList}
                 renderItem={({ item }) => (
                   <TouchableOpacity
+                    style={styles.selectedItems}
                     onPress={() => {
                       this.setState((prev) => ({
                         showRestCategories: !prev.showRestCategories,
                         selectedEstablishment: item.establishment.id,
+                        selectedEstablishmentName: item.establishment.name,
                       }));
                     }}>
                     <Text>{item.establishment.name}</Text>
@@ -162,7 +169,8 @@ class MainScreen extends React.Component {
               }}>
               <Text
                 style={styles.textStyle}>
-                {AppConstants.category}
+                {this.state.selectedCategoriesName
+                  ? this.state.selectedCategoriesName : AppConstants.category}
               </Text>
             </TouchableOpacity>
             {this.state.showCategories && (
@@ -170,10 +178,13 @@ class MainScreen extends React.Component {
                 data={this.state.categoriesList}
                 renderItem={({ item }) => (
                   <TouchableOpacity
+                    style={styles.selectedItems}
+
                     onPress={() => {
                       this.setState((prev) => ({
                         showCategories: !prev.showCategories,
                         selectedCategories: item.categories.id,
+                        selectedCategoriesName: item.categories.name,
                       }));
                     }}>
                     <Text>{item.categories.name}</Text>
@@ -222,7 +233,7 @@ class MainScreen extends React.Component {
                   selectedRestaurant: item,
                 });
               }}>
-              <Text>{`Name - ${item.restaurant.location.address}`}</Text>
+              <Text>{`Name - ${item.restaurant.name}`}</Text>
               <Text>{`Address - ${item.restaurant.location.address}`}</Text>
               <Text>{`Average cost - ${item.restaurant.average_cost_for_two}`}</Text>
               <Text>{`Timings - ${item.restaurant.timings}`}</Text>
