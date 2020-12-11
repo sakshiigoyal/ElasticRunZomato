@@ -1,7 +1,7 @@
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 
-import MainScreen from './MainScreen';
+import SavedRestaurant from './SavedRestaurant';
 import * as SaveRestaurantAction from '../utils/SaveRestaurantAction';
 
 const mapStateToProps = (state) => ({
@@ -17,9 +17,9 @@ function mapDispatchToProps(dispatch) {
   );
 }
 
-const MainScreenContainer = connect(
+const SavedRestaurantContainer = connect(
   mapStateToProps,
   mapDispatchToProps,
-)(MainScreen);
+)(SavedRestaurant);
 
-export default MainScreenContainer;
+export default SavedRestaurantContainer;

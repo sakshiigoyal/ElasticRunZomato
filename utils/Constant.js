@@ -1,5 +1,5 @@
 // BASE URL
-export const BASE_URL = 'https://jsonplaceholder.typicode.com';
+export const BASE_URL = 'https://developers.zomato.com/api/v2.1';
 
 export const AppConstants = {
   large: 'large',

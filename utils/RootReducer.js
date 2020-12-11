@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
-import ImageListReducer from './ImageListReducer';
+import saveRestaurantReducer from './SaveRestaurantReducer';
 
 const rootReducer = combineReducers({
-  imageListReducer: ImageListReducer,
+  saveRestaurantReducer: saveRestaurantReducer,
 });
 
 export default rootReducer;

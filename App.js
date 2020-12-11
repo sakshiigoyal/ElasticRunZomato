@@ -5,17 +5,21 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import {Provider} from 'react-redux';
-import ConfigureStore from './utils/Config';
-import MainScreenContainer from './src/MainScreenContainer';
+import {PersistGate} from 'redux-persist/lib/integration/react';
+
+import returnStoreAndPersistor from './utils/Config';
 import AppNavigator from './utils/AppNavigator';
 
-const store = ConfigureStore();
+// const storeV = store();
+const {store, persistor} = returnStoreAndPersistor();
 
 class App extends React.Component {
   render() {
     return (
       <Provider store={store}>
-        <AppNavigator />
+        <PersistGate persistor={persistor}>
+          <AppNavigator />
+        </PersistGate>
       </Provider>
     );
   }
