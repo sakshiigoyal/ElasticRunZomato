@@ -18,7 +18,7 @@ class SavedRestaurants extends React.Component {
       <FlatList
         data={this.state.selectedRestaurant}
         renderItem={({ item }) => (
-          <View style={{marginVertical:12}}>
+          <View style={{margin:12}}>
             <Text>{`Name - ${item.restaurant.name}`}</Text>
             <Text>{`Address - ${item.restaurant.location.address}`}</Text>
             <Text>{`Average cost - ${item.restaurant.average_cost_for_two}`}</Text>
