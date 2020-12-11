@@ -1,57 +1,40 @@
 import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
-  containerStyle: {
+  mainContainer: {
     flex: 1,
-    marginTop: 8,
+    marginBottom: 30,
+    marginHorizontal: 8,
   },
-  imageUrlStyle: {
-    alignSelf: 'center',
-    margin: 24,
-    width: 400,
-    height: 400,
+  rowStyle: {flexDirection: 'row'},
+  flexStyle: {flex: 1},
+  locationStyle: {
+    borderColor: 'black',
+    borderWidth: 2,
+    height: 40,
+    fontSize: 18,
+    marginHorizontal: 4,
   },
-  crossIconStyle: {
-    height: 30,
-    width: 30,
-    alignSelf: 'flex-end',
+  textStyle: {
+    fontSize: 14,
+    borderColor: 'black',
+    borderWidth: 2,
+    height: 40,
+    marginHorizontal: 4,
+    textAlign: 'center',
   },
-  imageModalStyle: {
-    justifyContent: 'center',
+  bottomRow: {flexDirection: 'row', marginTop: 8},
+  buttonStyle: {
     position: 'absolute',
-    zIndex: 2,
-    top: 0,
-    bottom: 0,
+    bottom: 60,
     left: 0,
     right: 0,
-    backgroundColor: 'rgba(52, 52, 52, 0.8)',
-  },
-  titleStyle: {
-    flex: 0.5,
-    fontSize: 12,
-    color: 'black',
-    fontWeight: 'bold',
-  },
-  listContainer: {
-    flexGrow: 1,
-    paddingBottom: 12,
-    margin: 8,
-  },
-  imageStyle: {
-    flex: 0.5,
-    width: 60,
-    height: 60,
-    alignSelf: 'center',
-    marginTop: 4,
-  },
-  loaderStyle: {
-    position: 'absolute',
-    zIndex: 2,
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
+    backgroundColor: 'black',
+    height: 40,
+    borderWidth: 2,
+    borderRadius: 8,
+    borderColor: 'black',
     justifyContent: 'center',
-    alignItems: 'center',
   },
+  saveText:{ color: 'white', textAlign: 'center', fontSize: 18 }
 });

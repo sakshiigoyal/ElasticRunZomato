@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'Cars24Images' do
+target 'ElasticRunZomato' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'Cars24ImagesTests' do
+  target 'ElasticRunZomatoTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -28,10 +28,10 @@ target 'Cars24Images' do
   end
 end
 
-target 'Cars24Images-tvOS' do
-  # Pods for Cars24Images-tvOS
+target 'ElasticRunZomato-tvOS' do
+  # Pods for ElasticRunZomato-tvOS
 
-  target 'Cars24Images-tvOSTests' do
+  target 'ElasticRunZomato-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

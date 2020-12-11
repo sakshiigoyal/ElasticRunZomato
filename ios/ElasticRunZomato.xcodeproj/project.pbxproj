@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* Cars24ImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Cars24ImagesTests.m */; };
-		02092766E26F41B47458E368 /* libPods-Cars24Images.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AADC89E3FB38161A575B7CB1 /* libPods-Cars24Images.a */; };
+		00E356F31AD99517003FC87E /* ElasticRunZomatoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ElasticRunZomatoTests.m */; };
+		02092766E26F41B47458E368 /* libPods-ElasticRunZomato.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AADC89E3FB38161A575B7CB1 /* libPods-ElasticRunZomato.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1E2DB5CFF6CC85C55F2FF98B /* libPods-Cars24Images-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E690A4F8047AB56E1A6A776 /* libPods-Cars24Images-tvOS.a */; };
+		1E2DB5CFF6CC85C55F2FF98B /* libPods-ElasticRunZomato-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E690A4F8047AB56E1A6A776 /* libPods-ElasticRunZomato-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* Cars24ImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Cars24ImagesTests.m */; };
-		65F865D754574A0605078B92 /* libPods-Cars24Images-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5736F2D540449B2CC17D2B /* libPods-Cars24Images-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* ElasticRunZomatoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ElasticRunZomatoTests.m */; };
+		65F865D754574A0605078B92 /* libPods-ElasticRunZomato-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B5736F2D540449B2CC17D2B /* libPods-ElasticRunZomato-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B197F07847E3E56158C463E2 /* libPods-Cars24Images-Cars24ImagesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9086105E7F4C7121B32827 /* libPods-Cars24Images-Cars24ImagesTests.a */; };
+		B197F07847E3E56158C463E2 /* libPods-ElasticRunZomato-ElasticRunZomatoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9086105E7F4C7121B32827 /* libPods-ElasticRunZomato-ElasticRunZomatoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Cars24Images;
+			remoteInfo = ElasticRunZomato;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Cars24Images-tvOS";
+			remoteInfo = "ElasticRunZomato-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* Cars24ImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cars24ImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* ElasticRunZomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElasticRunZomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* Cars24ImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cars24ImagesTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Cars24Images.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cars24Images.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Cars24Images/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Cars24Images/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Cars24Images/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Cars24Images/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Cars24Images/main.m; sourceTree = "<group>"; };
-		1B5736F2D540449B2CC17D2B /* libPods-Cars24Images-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cars24Images-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B9086105E7F4C7121B32827 /* libPods-Cars24Images-Cars24ImagesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cars24Images-Cars24ImagesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B9A78706D42F233F6B69ECD /* Pods-Cars24Images-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars24Images-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Cars24Images-tvOS/Pods-Cars24Images-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Cars24Images-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cars24Images-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Cars24Images-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cars24Images-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E690A4F8047AB56E1A6A776 /* libPods-Cars24Images-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cars24Images-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4064FD461B26D91D1628D516 /* Pods-Cars24Images.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars24Images.release.xcconfig"; path = "Target Support Files/Pods-Cars24Images/Pods-Cars24Images.release.xcconfig"; sourceTree = "<group>"; };
-		6494175E003EB7B6CEFB9605 /* Pods-Cars24Images-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars24Images-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Cars24Images-tvOSTests/Pods-Cars24Images-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		742F08F65ACBC7F17FCF6F4F /* Pods-Cars24Images.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars24Images.debug.xcconfig"; path = "Target Support Files/Pods-Cars24Images/Pods-Cars24Images.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Cars24Images/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8A157F00AE63C731D7745BCD /* Pods-Cars24Images-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars24Images-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Cars24Images-tvOS/Pods-Cars24Images-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		961649AEF359270291D0CD3C /* Pods-Cars24Images-Cars24ImagesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars24Images-Cars24ImagesTests.release.xcconfig"; path = "Target Support Files/Pods-Cars24Images-Cars24ImagesTests/Pods-Cars24Images-Cars24ImagesTests.release.xcconfig"; sourceTree = "<group>"; };
-		AA54719BB1C70DDDDAF3E612 /* Pods-Cars24Images-Cars24ImagesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars24Images-Cars24ImagesTests.debug.xcconfig"; path = "Target Support Files/Pods-Cars24Images-Cars24ImagesTests/Pods-Cars24Images-Cars24ImagesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AADC89E3FB38161A575B7CB1 /* libPods-Cars24Images.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cars24Images.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* ElasticRunZomatoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElasticRunZomatoTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ElasticRunZomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElasticRunZomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ElasticRunZomato/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ElasticRunZomato/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ElasticRunZomato/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ElasticRunZomato/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ElasticRunZomato/main.m; sourceTree = "<group>"; };
+		1B5736F2D540449B2CC17D2B /* libPods-ElasticRunZomato-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElasticRunZomato-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9086105E7F4C7121B32827 /* libPods-ElasticRunZomato-ElasticRunZomatoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElasticRunZomato-ElasticRunZomatoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9A78706D42F233F6B69ECD /* Pods-ElasticRunZomato-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticRunZomato-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ElasticRunZomato-tvOS/Pods-ElasticRunZomato-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* ElasticRunZomato-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ElasticRunZomato-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* ElasticRunZomato-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ElasticRunZomato-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E690A4F8047AB56E1A6A776 /* libPods-ElasticRunZomato-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElasticRunZomato-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4064FD461B26D91D1628D516 /* Pods-ElasticRunZomato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticRunZomato.release.xcconfig"; path = "Target Support Files/Pods-ElasticRunZomato/Pods-ElasticRunZomato.release.xcconfig"; sourceTree = "<group>"; };
+		6494175E003EB7B6CEFB9605 /* Pods-ElasticRunZomato-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticRunZomato-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ElasticRunZomato-tvOSTests/Pods-ElasticRunZomato-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		742F08F65ACBC7F17FCF6F4F /* Pods-ElasticRunZomato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticRunZomato.debug.xcconfig"; path = "Target Support Files/Pods-ElasticRunZomato/Pods-ElasticRunZomato.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ElasticRunZomato/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A157F00AE63C731D7745BCD /* Pods-ElasticRunZomato-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticRunZomato-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ElasticRunZomato-tvOS/Pods-ElasticRunZomato-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		961649AEF359270291D0CD3C /* Pods-ElasticRunZomato-ElasticRunZomatoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticRunZomato-ElasticRunZomatoTests.release.xcconfig"; path = "Target Support Files/Pods-ElasticRunZomato-ElasticRunZomatoTests/Pods-ElasticRunZomato-ElasticRunZomatoTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA54719BB1C70DDDDAF3E612 /* Pods-ElasticRunZomato-ElasticRunZomatoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticRunZomato-ElasticRunZomatoTests.debug.xcconfig"; path = "Target Support Files/Pods-ElasticRunZomato-ElasticRunZomatoTests/Pods-ElasticRunZomato-ElasticRunZomatoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AADC89E3FB38161A575B7CB1 /* libPods-ElasticRunZomato.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElasticRunZomato.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FAC57661CA124E061F1340BF /* Pods-Cars24Images-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cars24Images-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Cars24Images-tvOSTests/Pods-Cars24Images-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAC57661CA124E061F1340BF /* Pods-ElasticRunZomato-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticRunZomato-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ElasticRunZomato-tvOSTests/Pods-ElasticRunZomato-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B197F07847E3E56158C463E2 /* libPods-Cars24Images-Cars24ImagesTests.a in Frameworks */,
+				B197F07847E3E56158C463E2 /* libPods-ElasticRunZomato-ElasticRunZomatoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02092766E26F41B47458E368 /* libPods-Cars24Images.a in Frameworks */,
+				02092766E26F41B47458E368 /* libPods-ElasticRunZomato.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E2DB5CFF6CC85C55F2FF98B /* libPods-Cars24Images-tvOS.a in Frameworks */,
+				1E2DB5CFF6CC85C55F2FF98B /* libPods-ElasticRunZomato-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65F865D754574A0605078B92 /* libPods-Cars24Images-tvOSTests.a in Frameworks */,
+				65F865D754574A0605078B92 /* libPods-ElasticRunZomato-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* Cars24ImagesTests */ = {
+		00E356EF1AD99517003FC87E /* ElasticRunZomatoTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* Cars24ImagesTests.m */,
+				00E356F21AD99517003FC87E /* ElasticRunZomatoTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = Cars24ImagesTests;
+			path = ElasticRunZomatoTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Cars24Images */ = {
+		13B07FAE1A68108700A75B9A /* ElasticRunZomato */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Cars24Images;
+			name = ElasticRunZomato;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				AADC89E3FB38161A575B7CB1 /* libPods-Cars24Images.a */,
-				1B9086105E7F4C7121B32827 /* libPods-Cars24Images-Cars24ImagesTests.a */,
-				3E690A4F8047AB56E1A6A776 /* libPods-Cars24Images-tvOS.a */,
-				1B5736F2D540449B2CC17D2B /* libPods-Cars24Images-tvOSTests.a */,
+				AADC89E3FB38161A575B7CB1 /* libPods-ElasticRunZomato.a */,
+				1B9086105E7F4C7121B32827 /* libPods-ElasticRunZomato-ElasticRunZomatoTests.a */,
+				3E690A4F8047AB56E1A6A776 /* libPods-ElasticRunZomato-tvOS.a */,
+				1B5736F2D540449B2CC17D2B /* libPods-ElasticRunZomato-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Cars24Images */,
+				13B07FAE1A68108700A75B9A /* ElasticRunZomato */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* Cars24ImagesTests */,
+				00E356EF1AD99517003FC87E /* ElasticRunZomatoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C8F1BEB4A496E4CDF0F77715 /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Cars24Images.app */,
-				00E356EE1AD99517003FC87E /* Cars24ImagesTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Cars24Images-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Cars24Images-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* ElasticRunZomato.app */,
+				00E356EE1AD99517003FC87E /* ElasticRunZomatoTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* ElasticRunZomato-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* ElasticRunZomato-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		C8F1BEB4A496E4CDF0F77715 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				742F08F65ACBC7F17FCF6F4F /* Pods-Cars24Images.debug.xcconfig */,
-				4064FD461B26D91D1628D516 /* Pods-Cars24Images.release.xcconfig */,
-				AA54719BB1C70DDDDAF3E612 /* Pods-Cars24Images-Cars24ImagesTests.debug.xcconfig */,
-				961649AEF359270291D0CD3C /* Pods-Cars24Images-Cars24ImagesTests.release.xcconfig */,
-				2B9A78706D42F233F6B69ECD /* Pods-Cars24Images-tvOS.debug.xcconfig */,
-				8A157F00AE63C731D7745BCD /* Pods-Cars24Images-tvOS.release.xcconfig */,
-				6494175E003EB7B6CEFB9605 /* Pods-Cars24Images-tvOSTests.debug.xcconfig */,
-				FAC57661CA124E061F1340BF /* Pods-Cars24Images-tvOSTests.release.xcconfig */,
+				742F08F65ACBC7F17FCF6F4F /* Pods-ElasticRunZomato.debug.xcconfig */,
+				4064FD461B26D91D1628D516 /* Pods-ElasticRunZomato.release.xcconfig */,
+				AA54719BB1C70DDDDAF3E612 /* Pods-ElasticRunZomato-ElasticRunZomatoTests.debug.xcconfig */,
+				961649AEF359270291D0CD3C /* Pods-ElasticRunZomato-ElasticRunZomatoTests.release.xcconfig */,
+				2B9A78706D42F233F6B69ECD /* Pods-ElasticRunZomato-tvOS.debug.xcconfig */,
+				8A157F00AE63C731D7745BCD /* Pods-ElasticRunZomato-tvOS.release.xcconfig */,
+				6494175E003EB7B6CEFB9605 /* Pods-ElasticRunZomato-tvOSTests.debug.xcconfig */,
+				FAC57661CA124E061F1340BF /* Pods-ElasticRunZomato-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* Cars24ImagesTests */ = {
+		00E356ED1AD99517003FC87E /* ElasticRunZomatoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Cars24ImagesTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ElasticRunZomatoTests" */;
 			buildPhases = (
 				9FBE2992AC67B0250988B3AC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = Cars24ImagesTests;
-			productName = Cars24ImagesTests;
-			productReference = 00E356EE1AD99517003FC87E /* Cars24ImagesTests.xctest */;
+			name = ElasticRunZomatoTests;
+			productName = ElasticRunZomatoTests;
+			productReference = 00E356EE1AD99517003FC87E /* ElasticRunZomatoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Cars24Images */ = {
+		13B07F861A680F5B00A75B9A /* ElasticRunZomato */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cars24Images" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ElasticRunZomato" */;
 			buildPhases = (
 				E42A8826F096640EC3979CFA /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -236,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = Cars24Images;
-			productName = Cars24Images;
-			productReference = 13B07F961A680F5B00A75B9A /* Cars24Images.app */;
+			name = ElasticRunZomato;
+			productName = ElasticRunZomato;
+			productReference = 13B07F961A680F5B00A75B9A /* ElasticRunZomato.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Cars24Images-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* ElasticRunZomato-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cars24Images-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ElasticRunZomato-tvOS" */;
 			buildPhases = (
 				A44EAAD7BF37A743C01450D8 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -256,14 +256,14 @@
 			);
 			dependencies = (
 			);
-			name = "Cars24Images-tvOS";
-			productName = "Cars24Images-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Cars24Images-tvOS.app */;
+			name = "ElasticRunZomato-tvOS";
+			productName = "ElasticRunZomato-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* ElasticRunZomato-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Cars24Images-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* ElasticRunZomato-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cars24Images-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ElasticRunZomato-tvOSTests" */;
 			buildPhases = (
 				1D6D44CCB5B97CC19A9E91EE /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -275,9 +275,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Cars24Images-tvOSTests";
-			productName = "Cars24Images-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Cars24Images-tvOSTests.xctest */;
+			name = "ElasticRunZomato-tvOSTests";
+			productName = "ElasticRunZomato-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* ElasticRunZomato-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Cars24Images" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ElasticRunZomato" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Cars24Images */,
-				00E356ED1AD99517003FC87E /* Cars24ImagesTests */,
-				2D02E47A1E0B4A5D006451C7 /* Cars24Images-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Cars24Images-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* ElasticRunZomato */,
+				00E356ED1AD99517003FC87E /* ElasticRunZomatoTests */,
+				2D02E47A1E0B4A5D006451C7 /* ElasticRunZomato-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* ElasticRunZomato-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +392,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cars24Images-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ElasticRunZomato-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,7 +419,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cars24Images/Pods-Cars24Images-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ElasticRunZomato/Pods-ElasticRunZomato-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -428,7 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cars24Images/Pods-Cars24Images-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElasticRunZomato/Pods-ElasticRunZomato-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9FBE2992AC67B0250988B3AC /* [CP] Check Pods Manifest.lock */ = {
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cars24Images-Cars24ImagesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ElasticRunZomato-ElasticRunZomatoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cars24Images-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ElasticRunZomato-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -481,7 +481,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Cars24Images-Cars24ImagesTests/Pods-Cars24Images-Cars24ImagesTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ElasticRunZomato-ElasticRunZomatoTests/Pods-ElasticRunZomato-ElasticRunZomatoTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -490,7 +490,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cars24Images-Cars24ImagesTests/Pods-Cars24Images-Cars24ImagesTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElasticRunZomato-ElasticRunZomatoTests/Pods-ElasticRunZomato-ElasticRunZomatoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E42A8826F096640EC3979CFA /* [CP] Check Pods Manifest.lock */ = {
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cars24Images-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ElasticRunZomato-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* Cars24ImagesTests.m in Sources */,
+				00E356F31AD99517003FC87E /* ElasticRunZomatoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* Cars24ImagesTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* ElasticRunZomatoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Cars24Images */;
+			target = 13B07F861A680F5B00A75B9A /* ElasticRunZomato */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Cars24Images-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* ElasticRunZomato-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA54719BB1C70DDDDAF3E612 /* Pods-Cars24Images-Cars24ImagesTests.debug.xcconfig */;
+			baseConfigurationReference = AA54719BB1C70DDDDAF3E612 /* Pods-ElasticRunZomato-ElasticRunZomatoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Cars24ImagesTests/Info.plist;
+				INFOPLIST_FILE = ElasticRunZomatoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cars24Images.app/Cars24Images";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElasticRunZomato.app/ElasticRunZomato";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 961649AEF359270291D0CD3C /* Pods-Cars24Images-Cars24ImagesTests.release.xcconfig */;
+			baseConfigurationReference = 961649AEF359270291D0CD3C /* Pods-ElasticRunZomato-ElasticRunZomatoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = Cars24ImagesTests/Info.plist;
+				INFOPLIST_FILE = ElasticRunZomatoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,20 +645,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cars24Images.app/Cars24Images";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElasticRunZomato.app/ElasticRunZomato";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 742F08F65ACBC7F17FCF6F4F /* Pods-Cars24Images.debug.xcconfig */;
+			baseConfigurationReference = 742F08F65ACBC7F17FCF6F4F /* Pods-ElasticRunZomato.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BW7VM846MB;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Cars24Images/Info.plist;
+				INFOPLIST_FILE = ElasticRunZomato/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -666,7 +666,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Cars24Images;
+				PRODUCT_NAME = ElasticRunZomato;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -675,13 +675,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4064FD461B26D91D1628D516 /* Pods-Cars24Images.release.xcconfig */;
+			baseConfigurationReference = 4064FD461B26D91D1628D516 /* Pods-ElasticRunZomato.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BW7VM846MB;
-				INFOPLIST_FILE = Cars24Images/Info.plist;
+				INFOPLIST_FILE = ElasticRunZomato/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -689,7 +689,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Cars24Images;
+				PRODUCT_NAME = ElasticRunZomato;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -697,7 +697,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B9A78706D42F233F6B69ECD /* Pods-Cars24Images-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 2B9A78706D42F233F6B69ECD /* Pods-ElasticRunZomato-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -708,14 +708,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Cars24Images-tvOS/Info.plist";
+				INFOPLIST_FILE = "ElasticRunZomato-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Cars24Images-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ElasticRunZomato-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -725,7 +725,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A157F00AE63C731D7745BCD /* Pods-Cars24Images-tvOS.release.xcconfig */;
+			baseConfigurationReference = 8A157F00AE63C731D7745BCD /* Pods-ElasticRunZomato-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -736,14 +736,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Cars24Images-tvOS/Info.plist";
+				INFOPLIST_FILE = "ElasticRunZomato-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Cars24Images-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ElasticRunZomato-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -753,7 +753,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6494175E003EB7B6CEFB9605 /* Pods-Cars24Images-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 6494175E003EB7B6CEFB9605 /* Pods-ElasticRunZomato-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -763,24 +763,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Cars24Images-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ElasticRunZomato-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Cars24Images-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ElasticRunZomato-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cars24Images-tvOS.app/Cars24Images-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElasticRunZomato-tvOS.app/ElasticRunZomato-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAC57661CA124E061F1340BF /* Pods-Cars24Images-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = FAC57661CA124E061F1340BF /* Pods-ElasticRunZomato-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -790,17 +790,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Cars24Images-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "ElasticRunZomato-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Cars24Images-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.ElasticRunZomato-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cars24Images-tvOS.app/Cars24Images-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElasticRunZomato-tvOS.app/ElasticRunZomato-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -921,7 +921,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Cars24ImagesTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ElasticRunZomatoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -930,7 +930,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Cars24Images" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ElasticRunZomato" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -939,7 +939,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cars24Images-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ElasticRunZomato-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -948,7 +948,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Cars24Images-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ElasticRunZomato-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -957,7 +957,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Cars24Images" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ElasticRunZomato" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

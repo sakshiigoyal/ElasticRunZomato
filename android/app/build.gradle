@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.cars24images"
+        applicationId "com.elasticrunzomato"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

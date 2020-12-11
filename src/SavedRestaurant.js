@@ -1,14 +1,8 @@
 import React from 'react';
 import {
   View,
-  Switch,
   Text,
-  SafeAreaView,
-  Animated,
-  Image,
-  TouchableOpacity,
   FlatList,
-  TextInput,
 } from 'react-native';
 
 class SavedRestaurants extends React.Component {

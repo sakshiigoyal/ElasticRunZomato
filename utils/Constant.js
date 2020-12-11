@@ -2,8 +2,11 @@
 export const BASE_URL = 'https://developers.zomato.com/api/v2.1';
 
 export const AppConstants = {
-  large: 'large',
+  'Location': 'Location',
   black: 'black',
-  fourColumns: 'FourColumns',
-  oneColumn: 'OneColumn',
+  'getRestaurentCategories': 'Get Restaurent Categories',
+  'category': 'Category',
+  'getRestaurant':'Get Restaurant',
+  'saveRestaurant':'Save Restaurant',
+  'viewSavedRestaurants':'View Saved Restaurants'
 };

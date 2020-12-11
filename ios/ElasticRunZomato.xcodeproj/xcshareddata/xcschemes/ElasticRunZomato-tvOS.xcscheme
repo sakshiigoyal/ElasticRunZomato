@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "Cars24Images-tvOS.app"
-               BlueprintName = "Cars24Images-tvOS"
-               ReferencedContainer = "container:Cars24Images.xcodeproj">
+               BuildableName = "ElasticRunZomato-tvOS.app"
+               BlueprintName = "ElasticRunZomato-tvOS"
+               ReferencedContainer = "container:ElasticRunZomato.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "Cars24Images-tvOSTests.xctest"
-               BlueprintName = "Cars24Images-tvOSTests"
-               ReferencedContainer = "container:Cars24Images.xcodeproj">
+               BuildableName = "ElasticRunZomato-tvOSTests.xctest"
+               BlueprintName = "ElasticRunZomato-tvOSTests"
+               ReferencedContainer = "container:ElasticRunZomato.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Cars24Images-tvOS.app"
-            BlueprintName = "Cars24Images-tvOS"
-            ReferencedContainer = "container:Cars24Images.xcodeproj">
+            BuildableName = "ElasticRunZomato-tvOS.app"
+            BlueprintName = "ElasticRunZomato-tvOS"
+            ReferencedContainer = "container:ElasticRunZomato.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "Cars24Images-tvOS.app"
-            BlueprintName = "Cars24Images-tvOS"
-            ReferencedContainer = "container:Cars24Images.xcodeproj">
+            BuildableName = "ElasticRunZomato-tvOS.app"
+            BlueprintName = "ElasticRunZomato-tvOS"
+            ReferencedContainer = "container:ElasticRunZomato.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

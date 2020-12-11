@@ -11,9 +11,9 @@ import {
   TextInput,
 } from 'react-native';
 
-import {AppConstants} from '../utils/Constant';
-import {styles} from './Styles';
-import {loaderView} from './Loader';
+import { AppConstants } from '../utils/Constant';
+import { styles } from './Styles';
+import { loaderView } from './Loader';
 import Services from '../utils/Services';
 
 class MainScreen extends React.Component {
@@ -46,7 +46,7 @@ class MainScreen extends React.Component {
 
   fetchLocation = (value) => {
     Services.fetchLocation(value).then((response) => {
-      const {location_suggestions} = response;
+      const { location_suggestions } = response;
       this.setState({
         locationList: location_suggestions,
       });
@@ -56,7 +56,6 @@ class MainScreen extends React.Component {
   fetchCategories = () => {
     Services.fetchEstablishments(this.state?.selectedLocation).then(
       (response) => {
-        console.log('fetchCategories: ', response);
         this.setState({
           categoriesRestList: response.establishments,
         });
@@ -70,6 +69,9 @@ class MainScreen extends React.Component {
       this.state.selectedEstablishment,
       this.state.selectedCategories,
     ).then((response) => {
+      response.restaurants.map((item) => {
+        item.select = false;
+      });
       this.setState({
         restaurantList: response.restaurants,
       });
@@ -79,17 +81,17 @@ class MainScreen extends React.Component {
   saveRestaurant = () => {
     let updatedList = this.props.saveRestaurantReducer.restaurantList;
     updatedList.push(this.state.selectedRestaurant);
-
     this.props.saveRestaurant(updatedList);
   };
 
   render() {
     return (
-      <View style={{flex: 1, marginBottom: 30}}>
-        <View style={{flexDirection: 'row'}}>
-          <View style={{flex: 1}}>
+      <View style={styles.mainContainer}>
+        <View style={styles.rowStyle}>
+          <View style={styles.flexStyle}>
             <TextInput
-              style={{border: 2, borderColor: 'black', borderWidth: 4}}
+              placeholder={AppConstants.Location}
+              style={styles.locationStyle}
               onChangeText={(value) => {
                 this.fetchLocation(value);
                 this.setState((prev) => ({
@@ -102,7 +104,7 @@ class MainScreen extends React.Component {
             {this.state.showLocation && (
               <FlatList
                 data={this.state.locationList}
-                renderItem={({item, index}) => (
+                renderItem={({ item }) => (
                   <TouchableOpacity
                     onPress={() => {
                       this.setState((prev) => ({
@@ -117,7 +119,7 @@ class MainScreen extends React.Component {
               />
             )}
           </View>
-          <View style={{flex: 1}}>
+          <View style={styles.flexStyle}>
             <TouchableOpacity
               onPress={() => {
                 this.fetchCategories();
@@ -125,14 +127,15 @@ class MainScreen extends React.Component {
                   showRestCategories: !prev.showRestCategories,
                 }));
               }}>
-              <Text style={{border: 2, borderColor: 'black', borderWidth: 4}}>
-                Get Restaurent Categories
+              <Text
+                style={styles.textStyle}>
+                {AppConstants.getRestaurentCategories}
               </Text>
             </TouchableOpacity>
             {this.state.showRestCategories && (
               <FlatList
                 data={this.state.categoriesRestList}
-                renderItem={({item, index}) => (
+                renderItem={({ item }) => (
                   <TouchableOpacity
                     onPress={() => {
                       this.setState((prev) => ({
@@ -149,22 +152,23 @@ class MainScreen extends React.Component {
           </View>
         </View>
 
-        <View style={{flexDirection: 'row'}}>
-          <View style={{flex: 1}}>
+        <View style={styles.bottomRow}>
+          <View style={styles.flexStyle}>
             <TouchableOpacity
               onPress={() => {
                 this.setState((prev) => ({
                   showCategories: !prev.showCategories,
                 }));
               }}>
-              <Text style={{border: 2, borderColor: 'black', borderWidth: 4}}>
-                Category
+              <Text
+                style={styles.textStyle}>
+                {AppConstants.category}
               </Text>
             </TouchableOpacity>
             {this.state.showCategories && (
               <FlatList
                 data={this.state.categoriesList}
-                renderItem={({item, index}) => (
+                renderItem={({ item }) => (
                   <TouchableOpacity
                     onPress={() => {
                       this.setState((prev) => ({
@@ -179,24 +183,41 @@ class MainScreen extends React.Component {
               />
             )}
           </View>
-          <View style={{flex: 1}}>
+          <View style={styles.flexStyle}>
             <TouchableOpacity
               onPress={() => {
                 this.fetchRestaurant();
               }}>
-              <Text style={{border: 2, borderColor: 'black', borderWidth: 4}}>
-                Get Restaurant
+              <Text
+                style={styles.textStyle}>
+                {AppConstants.getRestaurant}
               </Text>
             </TouchableOpacity>
           </View>
         </View>
 
         <FlatList
+          extraData={this.state}
           data={this.state.restaurantList}
-          renderItem={({item, index}) => (
+          renderItem={({ item }) => (
             <TouchableOpacity
-              style={{marginVertical: 8}}
+              key={item.restaurant.id}
+              style={[
+                { marginVertical: 8 },
+                item.select
+                  ? { backgroundColor: 'orange' }
+                  : { backgroundColor: 'white' },
+              ]}
               onPress={() => {
+                this.state.restaurantList.map((value) => {
+                  if (item.restaurant.id === value.restaurant.id) {
+                    value.select = true;
+                  }
+                  else
+                    value.select = false;
+                  return value;
+                });
+
                 this.setState({
                   selectedRestaurant: item,
                 });
@@ -211,34 +232,21 @@ class MainScreen extends React.Component {
         />
 
         <TouchableOpacity
-          style={{
-            position: 'absolute',
-            bottom: 40,
-            left: 0,
-            right: 0,
-            backgroundColor: 'red',
-          }}
+          style={styles.buttonStyle}
           onPress={() => {
             this.saveRestaurant();
           }}>
-          <Text style={{border: 2, borderColor: 'black', borderWidth: 4}}>
-            Get Restaurant
+          <Text style={styles.saveText}>
+            {AppConstants.saveRestaurant}
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
-          style={{
-            position: 'absolute',
-            bottom: 0,
-            left: 0,
-            right: 0,
-            backgroundColor: 'red',
-          }}
+          style={[styles.buttonStyle, { bottom: 0 }]}
           onPress={() => {
-            console.log('props:: ', this.props);
             this.props.navigation.navigate('SavedRestaurant');
           }}>
-          <Text style={{border: 2, borderColor: 'black', borderWidth: 4}}>
-            View Saved Restaurants
+          <Text style={styles.saveText}>
+            {AppConstants.viewSavedRestaurants}
           </Text>
         </TouchableOpacity>
       </View>
