@@ -27,10 +27,10 @@ The goal of this project is to fetch data from Zomato API and store it locally u
 # **Usage**
 
 - You first need to enter location
-- On that basis ypu can select Restaurent Categories and Categories 
+- On that basis you can select Restaurent Categories and Categories 
 - After selecting your requirement you can fetch the list of restaurants
 - You can select your restaurant from the list and save it
-- Saved Restaurant is always visible in Saved Restaurant screen 
+- Saved Restaurants are always visible in Saved Restaurant screen 
 
 # **Running the project**
 
